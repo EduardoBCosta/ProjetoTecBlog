@@ -1,0 +1,106 @@
+/*Menu superior*/
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    font-size: 12pt;
+    margin: 0px;
+}
+
+#Menu{
+    background-color: #F7B600;
+    padding: 20px 15px;
+    margin: 0px;
+    text-align: center;
+    
+}
+#Menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#TituloSite{
+    font-size: 40px;
+    text-align: center;
+}
+#TituloPart1{
+    color: #4e4e4e;
+}
+#TituloPart2{
+    color: #FFFFFF;
+}
+
+#Menu a{
+    padding: 15px;
+}
+
+#Menu a:hover{
+    background-color: white;
+    color: #F7B600;
+    padding: 15px;
+}
+
+/*Conteudo */
+
+#Conteudo{
+    width: 980px;
+    position: relative;
+    left: 12.5%;
+}
+
+#Conteudo a{
+    text-decoration: none;
+    color: #F7B600;
+}
+
+#Postagens{
+    width: 680px;
+    float: left;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.AreaPostagem{
+    clear: both;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.TituloPostagem{
+    color: #F7B600;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    
+}
+.DataPubl{
+    margin-top: 0px;
+    font-size: 0.8em;
+}
+#Direitos{
+    clear: both;
+    background-color: #CCCCCC;
+    padding: 15px;
+    text-align: center;
+}
+
+#Lateral{
+    width: 240px;
+    float: left;
+}
+
+.SecLateral{
+    clear: both;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.TituloLat{
+    background-color: #CCCCCC;
+    color: #565656;
+    padding: 5px;
+}
